@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D3DEDC;
+}
+.Container{
+    width: 700px;
+    margin:1px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    background-color: #92A9BD;
+    padding: 1rem;
+    font-size: 2rem;
+color: #FFEFEF;
+margin: 0.3rem
+
+}
+p{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.gameBox{
+color: #FFEFEF;
+    background-color: #7C99AC;
+    height: 600px;
+}
+.gameBox h1{
+    padding: 2rem 0;
+    font-size: 4rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+margin:auto;
+}
+#input{
+    height: 70px;
+}
+#submit{
+    width: 40%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #D3DEDC;
+    font-size: 1rem;
+    /* color: #92A9BD; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.newGame{
+    display: none;  
+    width: 14%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #D3DEDC;
+    font-size: 1rem;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lowOrHi{
+    background-color: #ffefef;
+    color: #7c99ac;
+    font-size: 2rem;
+}
